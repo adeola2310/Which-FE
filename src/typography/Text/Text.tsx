@@ -9,4 +9,4 @@ const Text: FC<TextProps> = ({ children }: TextProps) => {
     )
 }
 
-export default Text
+export default Text;
