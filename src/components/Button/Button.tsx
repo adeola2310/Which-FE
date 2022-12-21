@@ -3,12 +3,13 @@ import './Button.scss';
 
 export interface ButtonProps {
   value: number;
+  activeButton: boolean;
   onClick: () => void
 }
 
-const Button: FC<ButtonProps> = ({ value, onClick }: ButtonProps) => {
+const Button: FC<ButtonProps> = ({ value, activeButton, onClick }: ButtonProps) => {
   return (
-    <button type='button' className='btn' data-testid="btn-list" onClick={onClick}>{value}</button>
+    <button type='button' className={activeButton ? 'btn-active' : 'btn'} data-testid="btn-list" onClick={onClick}>{value}</button>
   );
 }
 
