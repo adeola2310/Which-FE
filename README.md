@@ -29,6 +29,7 @@ Deployment link is: https://which-fe.vercel.app/
 * Ensured i achieved a 100% lighthouse score for lighthouse criteria
 
 ## **Performance Score Screenshot**
+<img width="633" alt="Screenshot 2022-12-21 at 15 35 02" src="https://user-images.githubusercontent.com/25429341/208952420-74b8d9dd-19a5-4a6f-b581-e70079ab69aa.png">
 
 
 ## **Criteria**
