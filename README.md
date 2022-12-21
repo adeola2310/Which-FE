@@ -1,46 +1,50 @@
-# Getting Started with Create React App
+## **Deployment**
+This project is deployed using automatic deploy with Vercel.
+Deployment link is: https://which-fe.vercel.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## **How to run this project**
+*```Git clone "name of repo"```
+*```yarn install```
+*```yarn start```
 
-## Available Scripts
+## **How to run test**
+*```yarn run test```
 
-In the project directory, you can run:
 
-### `npm start`
+## **Installation**
+ ```eslint-plugin jsx-ally```
+```eslint-plugins```
+```node-sass```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## **Tools Used**
+* React, Typescript, SASS, React Testing Library
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## **Technical/System design Decision**
+* Made use of css preprocessor for consistent theming with variables, for css code to be well maintainable
+* Made use of the colors that can be catchy to kids(the kind of users we are building for). Kids reacts to color on a physical level. Yellow signifies       happiness and sunshine for children; dark purple as it is attention grabbing to kids.
+* Made use of Typescript to ensure a properly defined static type
+* Wrote unit tests for better quality of code and to find bugs easily
+* Made use of rem rather px for font sizes because rem is scalable adding more flexibility to the UI for better accessibility
+* Used a11y-plugins to catch accessibility mistakes
+* Ensured i achieved a 100% lighthouse score for lighthouse criteria
 
-### `npm test`
+## **Performance Score Screenshot**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## **Criteria**
+* Meeting the Basics
+* Meeting the Requirements
+* Meeting the Constraints
+* Project Layout
+* Coding Style
+* Testing
+* Performance
+* Accessibility
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## **Proposed Improvement**
+* Added a loader before displaying list of numbers
+* Write a test for button to show the border-color when clicked. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
