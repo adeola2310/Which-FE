@@ -1,13 +1,14 @@
-import {FC} from 'react';
+import { FC } from 'react';
+import './Button.scss';
 
-export interface ButtonProps{
-    value: number
+export interface ButtonProps {
+  value: number;
+  onClick: () => void
 }
 
-const Button: FC<ButtonProps> = ({value}: ButtonProps) => {
+const Button: FC<ButtonProps> = ({ value, onClick }: ButtonProps) => {
   return (
-  <button>{value}</button>
-
+    <button type='button' className='btn' data-testid="btn-list" onClick={onClick}>{value}</button>
   );
 }
 
