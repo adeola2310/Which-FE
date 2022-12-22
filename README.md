@@ -23,6 +23,7 @@ Deployment link is: https://which-fe.vercel.app/
 * Made use of css preprocessor for consistent theming with variables, for css code to be well maintainable
 * Made use of the colors that can be catchy to kids(the kind of users we are building for). Kids reacts to color on a physical level. Yellow signifies       happiness and sunshine for children; dark purple as it is attention grabbing to kids.
 * Made use of Typescript to ensure a properly defined static type
+* Used prettier to format the code
 * Wrote unit tests for better quality of code and to find bugs easily
 * Made use of rem rather px for font sizes because rem is scalable adding more flexibility to the UI for better accessibility
 * Used a11y-plugins to catch accessibility mistakes

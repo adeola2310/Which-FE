@@ -20,6 +20,8 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "lint": "eslint .",
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
     "node-sass": "^8.0.0",
     "prettier": "^2.8.1",
     "react": "^18.2.0",

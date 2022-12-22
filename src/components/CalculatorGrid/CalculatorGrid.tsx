@@ -5,16 +5,17 @@ import './CalculatorGrid.scss';
 
 const CalculatorGrid = () => {
 
-    const [activeButton, setActiveButton] = useState<boolean>(false);
+    const [selectedNumber, setSelectedNumber] = useState<number>(0);
 
     const maxNumber = 144;
-    const listOfNumbers: Array<number> = [...Array(maxNumber).keys()];
 
-    const handleMultiplication = () => {
-        // if(val % index === 0){
-            setActiveButton(true)
+    const listOfNumbers = [] as Array<number>;
+    for (let i = 0; i < maxNumber; i++) {
+        listOfNumbers.push(i)
+    }
 
-        // }
+    const handleMultiplication = (val: number) => {
+        setSelectedNumber(val)
     }
 
     return (
@@ -24,9 +25,9 @@ const CalculatorGrid = () => {
                     listOfNumbers.map((index) => (
                         <Button
                             value={index + 1}
-                            activeButton={activeButton}
                             key={index}
-                            onClick={()=>handleMultiplication()} />
+                            selectedNumber={selectedNumber}
+                            onClick={() => handleMultiplication(index + 1)} />
                     ))
                 }
 
