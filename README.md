@@ -46,9 +46,6 @@ Deployment link is: https://which-fe.vercel.app/
 * Accessibility
 
 
-## **Proposed Improvement**
-* Add a loader before displaying list of numbers
-
 
 
 
