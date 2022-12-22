@@ -28,14 +28,16 @@ Deployment link is: https://which-fe.vercel.app/
 * Made use of rem rather px for font sizes because rem is scalable adding more flexibility to the UI for better accessibility
 * Used a11y-plugins to catch accessibility mistakes
 * Ensured i achieved a 100% lighthouse score for lighthouse criteria
+* Followed through CI/CD best practices by making meamingful comits often
+
 
 ## **Performance Score Screenshot**
 <img width="633" alt="Screenshot 2022-12-21 at 15 35 02" src="https://user-images.githubusercontent.com/25429341/208952420-74b8d9dd-19a5-4a6f-b581-e70079ab69aa.png">
 
 
-## **Criteria**
+## **Criteria Met**
 * Meeting the Basics
-* Meeting the Requirements
+* Meeting the Requirements (Visual and Functional)
 * Meeting the Constraints
 * Project Layout
 * Coding Style
@@ -45,8 +47,8 @@ Deployment link is: https://which-fe.vercel.app/
 
 
 ## **Proposed Improvement**
-* Added a loader before displaying list of numbers
-* Write a test for button to show the border-color when clicked. 
+* Add a loader before displaying list of numbers
+
 
 
 
