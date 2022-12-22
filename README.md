@@ -45,8 +45,8 @@ Deployment link is: https://which-fe.vercel.app/
 
 
 ## **Proposed Improvement**
-* Added a loader before displaying list of numbers
-* Write a test for button to show the border-color when clicked. 
+* Add a loader before displaying list of numbers
+
 
 
 
