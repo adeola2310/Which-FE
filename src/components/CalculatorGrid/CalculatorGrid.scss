@@ -1,17 +1,17 @@
 .calculator__wrapper{
     margin: 0 auto;
     max-width: var(--max-width);
-}
-.calculator__wrapper-btns{
-    align-items: center;
-    display: grid;
-    gap: 10px;
-    justify-items: center;
-
-    @media only screen and (min-width: 480px) {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    @media only screen and (min-width: 768px) {
-        grid-template-columns: repeat(3, 1fr);
+    &-btns{
+        align-items: center;
+        display: grid;
+        gap: 10px;
+        justify-items: center;
+    
+        @media only screen and (min-width: 480px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @media only screen and (min-width: 768px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
     }
 }
